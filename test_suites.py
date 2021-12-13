@@ -40,24 +40,4 @@ if __name__ == '__main__':
     suite.addTests([TestMultiplication(),TestAddition(), TestDivision(),TestSquare()])
     unittest.TextTestRunner().run(suite)
 
-# -----------------------------------------BASIC TEST SUITE INTRODUCTION------------------------------------------------
-# import unittest
-#
-#
-# class TestString(unittest.TestCase):
-#
-#     def runTest(self):
-#         self.assertEqual("r" * 2, 'rr')
-#
-#
-# class TestUCase(unittest.TestCase):
-#
-#     def runTest(self):
-#         self.assertEqual('PYTHON'.lower(), 'python')
-#
-#
-# if __name__ == '__main__':
-#     suite = unittest.TestSuite([TestString(), TestUCase()])
-#     unittest.TextTestRunner().run(suite)
 
-# -------------------------------------END OF BASIC TEST SUITE INTRODUCTION---------------------------------------------
